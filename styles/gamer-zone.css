@@ -134,7 +134,40 @@ font-weight: 700;
 #sec2-3rdimg :hover{
     cursor: pointer;
 }
-     
+
+
+/* section-3 style */
+     .section-3{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+     }
+     .section3-div1{
+        width: 400px;
+        padding: 150px 0 0 30px;
+     }
+     .sec3-title{
+        text-align: right;
+        font-family: Work Sans;
+        font-size: 48px;
+        font-weight: 700;
+     }
+     .sec3-title-color{
+        color: rgb(218, 23, 173);
+     }
+     .sec3-describ{
+        font-family: Work Sans;
+        color: #534C64;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 400;
+     }
+     .sec3-img2{
+        position: relative;
+        bottom:  300px;
+        right: 150px;
+        
+     }
 
 
 
@@ -152,6 +185,9 @@ font-weight: 700;
 
 /* responsive style */
 @media screen and (max-width:576px) {
+    .main{
+        padding: 10px 10px;
+    }
     .nav-section{
         flex-direction: column;
     }
@@ -190,6 +226,14 @@ font-weight: 700;
     }
     .section2-div1{
         justify-content: center;
+    }
+    /* section-3 */
+    .section-3{
+        flex-direction: column;
+    }
+    .sec3-title ,.sec3-describ{
+        text-align: center;
+    }
     }
 
 }
